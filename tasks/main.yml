@@ -1,0 +1,5 @@
+---
+- name: install php-mysql
+  apt:
+    name: php-mysql
+    state: present
